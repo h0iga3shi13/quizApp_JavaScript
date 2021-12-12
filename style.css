@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap");
+
+body {
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  /* 左から優先して見つかったフォントを適用する(游ゴシック) */
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+h2 {
+  /* 線を描画 (solid:1本線, #1e366a: 16進数カラーコード, 1px: 文字の太さ */
+  border-bottom: 1px solid #585959;
+}
+
+ul li,
+ol li {
+  /* em -> fontSizeに合わせて柔軟に変更してくれる */
+  padding: 1em;
+  list-style-position: inside;
+}
+
+ol.answers {
+  list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+  /* 疑似クラス -> MouseHover時にclassを当てる */
+  border: 0.1em solid #1e366a;
+  background-color: #e5ecfc;
+  /* hover時の画面揺れを防ぐ */
+  padding: 0.9em;
+  cursor: pointer;
+}
+
+#section-correct-answer {
+  display: none;
+}
+
+#correct-answer {
+  font-weight: bold;
+}
+
+#main {
+  padding: 0 1.5em;
+}
+
+div.section {
+  margin-top: 2em;
+}
