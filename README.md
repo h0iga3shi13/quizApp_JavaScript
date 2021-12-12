@@ -2,9 +2,8 @@
 
 ## 実行環境
 
-- JavaScript
-  - ローカル環境で実行
-  - VSCode の _LiveServer_ を使用して動作確認
+- ローカル環境で実行
+- VSCode の _LiveServer_ を使用
 
 ## 見出し 2
 
